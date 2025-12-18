@@ -1,0 +1,21 @@
+# D compiled files
+*.o
+*.obj
+*.di
+
+# D executable
+aoc
+*.exe
+
+# Dub
+.dub/
+dub.selections.json
+
+# Editor files
+*.swp
+*~
+.vscode/
+.idea/
+
+# Input files (optional - uncomment to ignore your puzzle inputs)
+# input/*.txt

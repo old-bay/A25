@@ -1,0 +1,20 @@
+{
+    "name": "aoc2025",
+    "description": "Advent of Code 2025 Solutions in D",
+    "authors": [],
+    "license": "MIT",
+    "targetType": "executable",
+    "targetName": "aoc",
+    "sourcePaths": ["source"],
+    "importPaths": ["source"],
+    "buildOptions": {
+        "release": ["releaseMode", "optimize"],
+        "debug": ["debugMode"]
+    },
+    "configurations": [
+        {
+            "name": "default",
+            "targetType": "executable"
+        }
+    ]
+}
